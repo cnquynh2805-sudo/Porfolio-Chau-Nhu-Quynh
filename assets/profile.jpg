@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">A green circle placeholder for the profile image.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DCEED8"/>
+      <stop offset="100%" stop-color="#EAF7EE"/>
+    </linearGradient>
+    <linearGradient id="circle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7BC47F" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3B7D4A" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="32" fill="url(#bg)"/>
+  <circle cx="200" cy="160" r="86" fill="url(#circle)" opacity="0.88"/>
+  <path d="M140 300c0-44 36-80 80-80s80 36 80 80" fill="none" stroke="#1F3927" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="160" cy="150" r="26" fill="#F7FBF7" opacity="0.85"/>
+  <circle cx="240" cy="150" r="26" fill="#F7FBF7" opacity="0.85"/>
+  <path d="M160 200c20 8 40 12 60 12s40-4 60-12" fill="none" stroke="#F7FBF7" stroke-width="12" stroke-linecap="round"/>
+  <text x="200" y="360" fill="#576B56" font-family="Inter, sans-serif" font-size="28" text-anchor="middle">Your photo here</text>
+</svg>
